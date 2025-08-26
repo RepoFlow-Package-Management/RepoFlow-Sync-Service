@@ -1,0 +1,56 @@
+{
+  "ts-node": {
+    "swc": true
+  },
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node16",
+    "module": "Node16",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "./built",
+    "allowJs": false,
+    "target": "ES2020",
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "typeRoots": ["./typings"],
+    "strict": true, // FULL strict mode
+    "strictNullChecks": true, // No null / undefined errors
+    "strictPropertyInitialization": true, // Class fields must be initialized
+    "noImplicitAny": true, // Cannot use `any`
+    "noImplicitThis": true, // No implicit this
+    "alwaysStrict": true, // Emit 'use strict'
+    "noFallthroughCasesInSwitch": true, // Safer switch statements
+    "noUnusedLocals": true, // Warn on unused locals
+    "noUnusedParameters": true, // Warn on unused function params
+    "noImplicitOverride": true, // Require `override` keyword
+    "plugins": [
+      {
+        "name": "swc",
+        "options": {
+          "jsc": {
+            "parser": {
+              "syntax": "ecmascript",
+              "decorators": true,
+              "dynamicImport": true
+            },
+            "transform": {
+              "legacyDecorator": true,
+              "removeConsole": false,
+              "removeDebugger": false,
+              "minify": true,
+              "comments": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./plugins/**/*", "./typings/**/*", "./built/**/*"]
+}

@@ -1,0 +1,15 @@
+export enum PackageType {
+  NPM = "npm",
+  MAVEN = "maven",
+  PYPI = "pypi",
+  DOCKER = "docker",
+  NUGET = "nuget",
+  GO = "go",
+  HELM = "helm",
+  RPM = "rpm",
+  UNIVERSAL = "universal",
+  GEMS = "gems",
+  DEBIAN = "debian",
+  COMPOSER = "composer",
+  CARGO = "cargo",
+}

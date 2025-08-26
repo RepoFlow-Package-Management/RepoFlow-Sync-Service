@@ -1,0 +1,46 @@
+RepoFlow Sync Service License v1.0 (Source-Available)
+
+Copyright (c) 2025 RepoFlow.io
+
+Definitions
+“Software” means the source code and binaries of the RepoFlow Sync Service.
+“RepoFlow” means the RepoFlow artifact management platform.
+“RepoFlow Instance” means a deployment of RepoFlow controlled by you or your organization.
+
+1. Grant of Rights
+   Subject to these terms, you are granted a non-exclusive, non-transferable, revocable, worldwide license to:
+   (a) use and reproduce the Software solely to operate with RepoFlow Instances; and
+   (b) modify the Software solely as necessary to operate with RepoFlow Instances.
+
+2. Restrictions
+   You may NOT:
+   (a) sell, resell, rent, lease, sublicense, or otherwise commercialize the Software, including as part of a paid service;
+   (b) offer the Software, or any modified version, as a hosted or managed service (SaaS/PaaS);
+   (c) use the Software for or with systems other than RepoFlow;
+   (d) remove or alter any copyright, license, or attribution notices; or
+   (e) circumvent or remove any licensing or usage restrictions in the Software.
+
+3. Distribution
+   You may distribute unmodified or modified copies of the Software only if:
+   (a) each recipient agrees to this same license; and
+   (b) distribution is solely for use with RepoFlow Instances.
+
+4. Trademarks
+   This license does not grant any rights to use the RepoFlow name, logos, or trademarks.
+
+5. Feedback and Contributions
+   Any feedback or contributions you provide may be used by the licensor without obligation. Contributions are accepted under this license unless otherwise agreed in writing.
+
+6. Termination
+   This license terminates automatically if you breach any term. Upon termination, you must stop using the Software and destroy copies in your possession.
+
+7. Disclaimer of Warranty
+   THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+8. Limitation of Liability
+   IN NO EVENT WILL THE LICENSOR BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, ARISING OUT OF OR RELATED TO THE SOFTWARE OR THIS LICENSE.
+
+9. Governing Law
+   This license will be governed by the laws of your jurisdiction of residence unless prohibited; otherwise, by the laws of Israel, excluding its conflict of laws rules.
+
+For commercial or alternative licensing (e.g., resale, SaaS, broader redistribution), contact: hello@repoflow.io
